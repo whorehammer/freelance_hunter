@@ -59,8 +59,7 @@ def test_case():
 
 def start(bot: Bot, update: Update):
     print(update.message)
-    bot.send_message(chat_id=update.message.chat_id, text="nigga")
-    # subprocess.run(['python', 'sender_test.py'])
+    bot.send_message(chat_id=update.message.chat_id, text="hi")
     if update.message.chat_id in owner_list:
         reply_markup = ReplyKeyboardMarkup(standard_menu)
         bot.send_message(chat_id=update.message.chat_id, text="выберите действие", reply_markup=reply_markup)
