@@ -19,11 +19,13 @@
 
 
 **Launching**
+
 The main application is `manager_bot.py`, so the launching looks like this:
 ```python manager_bot.py```
 first usage of spam script(`sender_test.py`) requires authorization, so login with your spamming account where the megagrops to send messages in are stored. Then, it will use the authorization session file.
 
 **Managing**
+
 You can manage spamming through the keyboard your bot sends to you after */start* command. Available options: set spam session interval, start spamming, stop spamming, set spam message text.
  
 
